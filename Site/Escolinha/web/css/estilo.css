@@ -1,0 +1,163 @@
+.teste {
+    background-color: white;
+    color: black;
+    font-family: "Segoe UI Light";
+}
+hr {
+    background-color: black;
+}
+
+header , footer {
+    width: 100%;
+    background-color:  #282828;
+    min-height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 2rem;
+}
+
+header .logo {
+    width: 115px;
+    height: 40px;
+    background: url(../img/Logo.png) left center / 115px no-repeat;
+    margin-top: 12px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #f47c48;
+    min-height: calc(100vh - 193px);
+}
+
+.containerUnidades h3, .containerVisao h3, .container h3 {
+    font-weight: 900;
+}
+
+.containerBanner {
+    background-color: #282828; 
+    padding: 55px 30.8px 55px 31.2px;
+}
+
+.divcarrousel {
+    max-width: 1920px;
+    margin: auto;
+}
+
+.interior {
+    max-width: 1920px;
+}
+
+.carousel-item,  .carousel-item active{
+    max-height: 25em;
+    width: 900px;
+    overflow: hidden;
+}
+
+.carousel-img {
+    display: block;
+    width: inherit;
+    overflow: hidden;
+}
+
+footer p {
+    font-size: 14px;
+    font-weight: bolder;
+    font-style: italic;
+    margin-top: 30px;
+    margin-left: 50px;
+    color: #f47c48;
+}
+
+.icone {
+    background: #f47c48;
+    width: 70px;
+    padding: 15px;
+    border-radius: 100%;
+    margin-top: 30px;
+}
+
+.icone img {
+    max-width: 100%;
+    height: auto;
+}
+
+.unidades {
+    width: 310px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.unidades img {
+    max-width: 100%;
+    height: auto;
+}
+
+.menu_fixo {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+}
+
+.paragrafo-containers {
+     color: #f47c48;
+     font-weight: 900;
+     margin: 20px 1px;
+}
+
+.estilo-unidades {
+    height: 450px;
+    padding-bottom: 20px;
+}
+
+.banner-titulo h3 {
+    font-family: "Segoe UI Light";
+    font-weight: 700;
+    text-align: left;
+    color: #f47c48;
+    line-height: 20px;
+    font-size: 30px;
+}
+
+.banner-botao {
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 1em;
+    float: right;
+}
+
+.banner-botao a {
+    box-sizing: border-box;
+    font-size: 1em;
+    font-weight: 700;
+    padding: 1.4em 2.8em;
+    background: #f47c48;
+    color: black !important;
+    border: 1px solid #f47c48;
+    border-width: 1px 0;
+    border-radius: 0em;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+}
+
+.organizador {
+    margin: 30px;
+}
+
+.botoes {
+    background-color: #f47c48;
+    border: 1px solid black;
+    border-radius: 0em;
+    color: black;
+    font-weight: 800;
+}
+
+.table thead {
+    background-color: #282828;
+    color: #f47c48;
+}
